@@ -1,3 +1,32 @@
-h1 {
-    color: red($color: #000000);
+body {
+
+    text-align: center;
+    background-color: pink;
+
+    .head {
+        background-color: gray;
+        h1 {
+            color: green($color: #000000);
+        }
+        a {
+            text-decoration: none;
+            color: black;
+        }
+    }
+
+    .body {
+        background-color: bisque;
+        p {
+            color: green($color: #000000);
+        }
+    }
+
+    .footer {
+        background-color: aliceblue;
+        a {
+            text-decoration: none;
+            color: black;
+            margin: 50px;
+        }
+    }
 }
